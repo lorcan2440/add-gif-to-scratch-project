@@ -2,11 +2,11 @@
 How to use this tool (assumes you already have Python installed)
 
 1. Download your Scratch 3 project to your computer.
-2. Edit the variables below to point the program to the project and the GIF you want to add.
-3. Run the program. If you need to install PIL, run $ pip install Pillow at the command line.
-4. Load the same Scratch project file you downloaded back into Scratch.
-5. Result - the GIF you put has been added as a sprite with each costume as a frame.
-6. Press Green Flag to see it animated.
+2. Download `sprite_template.json` from this repo to the same directory as this program.
+3. Edit the variables below to point the program to the project and the GIF you want to add.
+4. Run the program. If you need to install PIL, run $ pip install Pillow at the command line.
+5. Load the same Scratch project file you downloaded back into Scratch. Result - the GIF you put
+   has been added as a sprite with each costume as a frame. Press Green Flag to see it animated.
 '''
 
 from zipfile import ZipFile
