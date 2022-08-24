@@ -1,0 +1,92 @@
+{
+    "spriteTemplate":
+        {
+            "isStage": false,
+            "name": null,
+            "variables": {},
+            "lists": {},
+            "broadcasts": {},
+            "blocks": {
+                "y/pU$i46M:8:?K(p46P0": {
+                    "opcode": "event_whenflagclicked",
+                    "next": "[lVb%wgx7$ZvD`Q|`1=m",   
+                    "parent": null,
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": true,
+                    "x": -594,
+                    "y": -735
+                },
+                "Kw66%PoX@p)QXNO)s*oJ": {
+                    "opcode": "control_forever",
+                    "next": null,
+                    "parent": "[lVb%wgx7$ZvD`Q|`1=m",
+                    "inputs": {
+                        "SUBSTACK": [
+                            2,
+                            "!@Z^$.[VrJO@?=bY}dBc"
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "!@Z^$.[VrJO@?=bY}dBc": {
+                    "opcode": "looks_nextcostume",
+                    "next": null,
+                    "parent": "Kw66%PoX@p)QXNO)s*oJ",
+                    "inputs": {},
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                },
+                "[lVb%wgx7$ZvD`Q|`1=m": {
+                    "opcode": "motion_gotoxy",
+                    "next": "Kw66%PoX@p)QXNO)s*oJ",
+                    "parent": "y/pU$i46M:8:?K(p46P0",
+                    "inputs": {
+                        "X": [
+                            1,
+                            [
+                                4,
+                                "0"
+                            ]
+                        ],
+                        "Y": [
+                            1,
+                            [
+                                4,
+                                "0"
+                            ]
+                        ]
+                    },
+                    "fields": {},
+                    "shadow": false,
+                    "topLevel": false
+                }
+            },
+            "comments": {},
+            "currentCostume": 0,
+            "sounds": [],
+            "volume": 100,
+            "layerOrder": 1,
+            "visible": true,
+            "x": 0,
+            "y": 0,
+            "size": 100,
+            "direction": 90,
+            "draggable": false,
+            "rotationStyle": "all around"
+        },
+    "costumeTemplate":
+        {
+            "assetId": null,
+            "name": null,
+            "bitmapResolution": 1,
+            "md5ext": null,
+            "dataFormat": "png",
+            "rotationCenterX": null,
+            "rotationCenterY": null
+        }
+}
