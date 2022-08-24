@@ -16,9 +16,8 @@ import json, os, hashlib, copy, warnings
 from PIL import Image
 
 
-RESOURCES_DIR = r'C:\Users\lnick\Documents\Personal\Programming\x_More\Python\Reference Assets'
-PROJ_PATH = os.path.join(RESOURCES_DIR, 'EmptyScratchProject.sb3')
-GIF_PATH = os.path.join(RESOURCES_DIR, 'dragonite.gif')
+PROJ_PATH = 'EmptyScratchProject.sb3'
+GIF_PATH = 'dragonite.gif'
 
 
 def set_rotation_centre(img, costume_data: dict, sprite_centre_loc: int):
