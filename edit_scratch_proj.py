@@ -16,9 +16,8 @@ import json, os, hashlib, copy, warnings
 from PIL import Image
 
 
-RESOURCES_DIR = r'C:\Users\lnick\Documents\Personal\Programming\x_More\Python\Reference Assets'
-PROJ_PATH = os.path.join(RESOURCES_DIR, 'EmptyScratchProject.sb3')
-GIF_PATH = os.path.join(RESOURCES_DIR, 'dragonite.gif')
+PROJ_PATH = 'EmptyScratchProject.sb3'
+GIF_PATH = 'dragonite.gif'
 
 
 def add_gif_to_scratch_proj_as_sprite(scratch_proj_path: str, gif_path: str,
